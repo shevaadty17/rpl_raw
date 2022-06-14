@@ -16,7 +16,7 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="{{asset('assets/logo.png')}}" alt="" width="30" height="24" class="d-inline-block align-text-top">
-            Web Kasir
+            GoodsDept
           </a>
 
           <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
@@ -35,7 +35,7 @@
     <footer class="bg-light text-center text-lg-start fixed-bottom">
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © Kelompok ... : SI4307
+          © Kelompok 5 : SI4307
         </div>
         <!-- Copyright -->
       </footer>
