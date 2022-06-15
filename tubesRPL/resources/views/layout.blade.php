@@ -22,8 +22,8 @@
           <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
             <li><a href="/homeAdmin" class="nav-link px-2 link-secondary">HOME</a></li>
             <li><a href="/barang" class="nav-link px-2 link-secondary">BARANG</a></li>
-            <li><a href="" class="nav-link px-2 link-secondary">KASIR</a></li>
-            <li><a href="" class="nav-link px-2 link-secondary">PROFIL</a></li>
+            <li><a href="/kasir" class="nav-link px-2 link-secondary">KASIR</a></li>
+            <li><a href="/profile" class="nav-link px-2 link-secondary">PROFIL</a></li>
           </ul>
         </div>
     </nav>

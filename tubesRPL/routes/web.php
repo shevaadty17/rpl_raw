@@ -22,3 +22,15 @@ Route::get('/homeAdmin', function () {
 Route::get('/barang', function () {
     return view('barang');
 });
+Route::get('/kasir', function () {
+    return view('kasir');
+});
+Route::get('/barang/create', function () {
+    return view('tambahBarang');
+});
+Route::get('/profile', function () {
+    return view('profile');
+});
+Route::get('/profile/edit', function () {
+    return view('editProfile');
+});
