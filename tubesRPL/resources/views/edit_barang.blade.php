@@ -32,7 +32,7 @@
             <textarea class="form-control" name= "deskripsi" id="exampleFormControlTextarea1" rows="3" >{{ $barang->deskripsi }}</textarea>
         </div>
         <div class="mb-3">
-            <button type="submit" class="btn btn-primary">Tambah</button>
+            <button type="submit" class="btn btn-primary">Edit</button>
         </div>
     </form>
     

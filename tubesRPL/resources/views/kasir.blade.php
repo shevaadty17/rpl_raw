@@ -4,17 +4,22 @@
 
 @section('content')
 <div class="container" style="margin:20px auto 50px auto">
-    <h1 class="text-center">Daftar Barang</h1>
-    <a class="btn btn-primary mb-3" href="/barang/create">Tambah Barang</a>
-    <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Nama Barang</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-warning">Edit</a>
-        <a href="#" class="btn btn-danger">Delete</a>
-      </div>
-  </div>
+  <h1 class="text-center">Kasir</h1>
+  <a href="/kasir/create" class="btn btn-success">Insert</a>
+    @foreach ($kasir as $item)
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">{{ $item->nama_user }}</h5>
+          <p class="card-text">{{ $item->email }}</p>
+          <p class="card-text">{{ $item->alamat }}</p>
+          <p class="card-text">{{ $item->no_tlp }}</p>
+          <a href="/kasir/edit/{{ $item->id }}" class="btn btn-warning">Edit</a>
+          <a href="/kasir/delete/{{ $item->id }}" class="btn btn-danger">Delete</a>
+    </div>
+    @endforeach  
+  
+  
+</div>
 </div>
 
 @endsection
