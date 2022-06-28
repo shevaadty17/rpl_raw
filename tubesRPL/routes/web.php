@@ -52,4 +52,11 @@ Route::get('/profile', function () {
 
 Route::get('/profile/edit/{id}', [KasirController::class, "editProfile"]);
 Route::post('/profile/edit/{id}', [KasirController::class, "updateProfile"]);
+
 Route::get('/transaksi', [TransaksiController::class, "index"]);
+Route::get('/transaksi/tambah', [TransaksiController::class, "tambah"]);
+Route::post('/transaksi/tambah', [TransaksiController::class, "input"]);
+Route::get('/transaksi/delete/{id}', [TransaksiController::class, "delete"]);
+Route::get('/transaksi/print', [TransaksiController::class, "print"]);
+Route::get('/transaksi/detail/{id}', [TransaksiController::class, "detail"]);
+Route::get('/transaksi/batal/{id}', [TransaksiController::class, "batal"]);
