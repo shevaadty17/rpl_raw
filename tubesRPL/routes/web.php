@@ -3,6 +3,7 @@
 use App\Http\Controllers\BarangController;
 use App\Http\Controllers\KasirController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\TransaksiController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -51,3 +52,4 @@ Route::get('/profile', function () {
 
 Route::get('/profile/edit/{id}', [KasirController::class, "editProfile"]);
 Route::post('/profile/edit/{id}', [KasirController::class, "updateProfile"]);
+Route::get('/transaksi', [TransaksiController::class, "index"]);

@@ -32,7 +32,7 @@
                 <li><a href="/barang" class="nav-link px-2 link-secondary">BARANG</a></li>
                 <li><a href="/kasir" class="nav-link px-2 link-secondary">KASIR</a></li>
               @endif
-              <li><a href="" class="nav-link px-2 link-secondary">TRANSAKSI</a></li>
+              <li><a href="/transaksi" class="nav-link px-2 link-secondary">TRANSAKSI</a></li>
               <li><a href="/profile" class="nav-link px-2 link-secondary">PROFIL</a></li>
             @endauth
                         
